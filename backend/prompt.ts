@@ -32,4 +32,6 @@ Given a YouTube transcript, identify the most important segments that might go v
   },
   // so on...
 ]
+
+-Strictly follow the output format and do not include any additional text or explanations.
 `;

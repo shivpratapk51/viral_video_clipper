@@ -23,8 +23,9 @@ for (const chunk of chunks) {
 console.log(prompt);
 
 try {
+  
   const res = await llm({
-    query: prompt,
+    query: prompt.toString(),
     systemPrompt: SYSTEM_PROMPT,
     maxTokens: 1000000,
     stream: true,
